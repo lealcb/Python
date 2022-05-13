@@ -22,7 +22,7 @@ class Paint(object):
         self.botao_borracha = Button(self.root, text='Borracha', command=self.use_eraser)
         self.botao_borracha.grid(row=0, column=3)
 
-        self.botao_escolhe_tamanho = Scale(self.root, from_=1, to=2 0, orient=HORIZONTAL)
+        self.botao_escolhe_tamanho = Scale(self.root, from_=1, to=2.0, orient=HORIZONTAL)
         self.botao_escolhe_tamanho.grid(row=0, column=4)
 
         self.c = Canvas(self.root, bg='black', width=600, height=600)
